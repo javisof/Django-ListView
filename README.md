@@ -32,9 +32,9 @@ Django ListView contains the code to display the data from the database tables a
 
 
 <h2>Install</h2>
-Run simple projects with Django and create app.
-<strong>Source code views</strong> is in folder 'mostrar_datos/views.py'.
-<strong>Templates HTML</strong> is in the folder 'templates'.
+<p>Run simple projects with Django and create app.</p>
+<p><strong>Source code views</strong> is in folder 'mostrar_datos/views.py'.</p>
+<p><strong>Templates HTML</strong> is in the folder 'templates'.</p>
 
 
 
