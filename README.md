@@ -7,7 +7,7 @@ Django ListView contains the code to display the data from the database tables a
 <ul>
     <li><strong>Index.html</strong>:
         <ul>
-            <li>show the data with request function:
+            <li>Show the data with request function:
                 Gets the table data and associated ManyToManyField data.</li>
         </ul>
     </li>
@@ -42,3 +42,6 @@ Django ListView contains the code to display the data from the database tables a
 <img src="https://github.com/javisof/Django-ListView/blob/main/sample-images/index.jpg" />
 <img src="https://github.com/javisof/Django-ListView/blob/main/sample-images/data_with_listview.jpg" />
 <img src="https://github.com/javisof/Django-ListView/blob/main/sample-images/books_and_categories.jpg" />
+
+
+<h3>Enhoy!!! :)</h3>
