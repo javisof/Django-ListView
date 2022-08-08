@@ -2,7 +2,7 @@
 Django ListView contains the code to display the data from the database tables and the data associated with the ManyToManyField
 
 
-<h2>Features:</h2>
+<h2>Features</h2>
     
 <ul>
     <li>Index.html:
@@ -23,12 +23,19 @@ Django ListView contains the code to display the data from the database tables a
     </li>
 </ul>
 
-<h2>Requeriments:</h2>
+<h2>Requeriments</h2>
 
 <ul>
     <li>Python 3.10.5</li>
     <li>Django 4.0.6</li>
 </ul>
+
+
+<h2>Install</h2>
+Run simple projects with Django and create app.
+<strong>Source code views</strong> is in folder 'mostrar_datos/views.py'.
+<strong>Templates HTML</strong> is in the folder 'templates'.
+
 
 
 
