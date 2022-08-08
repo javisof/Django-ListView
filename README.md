@@ -40,5 +40,5 @@ Django ListView contains the code to display the data from the database tables a
 
 <h2>Example Images</h2>
 <img src="https://github.com/javisof/Django-ListView/blob/main/sample-images/index.jpg" />
-<img src="https://github.com/javisof/Django-ListView/blob/main/datos_con_listview.jpg" />
-<img src="https://github.com/javisof/Django-ListView/blob/main/books_and_categories.jpg" />
+<img src="https://github.com/javisof/Django-ListView/blob/main/sample-images/datos_con_listview.jpg" />
+<img src="https://github.com/javisof/Django-ListView/blob/main/sample-images/books_and_categories.jpg" />
