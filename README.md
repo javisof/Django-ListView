@@ -46,4 +46,4 @@
 <img src="https://github.com/javisof/Django-ListView/blob/main/sample-images/books_and_categories.jpg" />
 
 
-<h3>Enjoy the code Phyton Django!!! :blush:</h3>
+<h3>Enjoy the code Python Django!!! :blush:</h3>
