@@ -1,5 +1,7 @@
 # Django-ListView
-Django ListView contains the code to display the data from the database tables and the data associated with the ManyToManyField.
+<p>Django ListView contains the code to display the data from the database tables and the data associated with the ManyToManyField.</p>
+
+<p>The project has 3 associated urls.</p>
 
 
 <h2>Features</h2>
