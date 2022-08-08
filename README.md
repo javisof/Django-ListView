@@ -11,7 +11,7 @@ Django ListView contains the code to display the data from the database tables a
                 Gets the table data and associated ManyToManyField data.</li>
         </ul>
     </li>
-    <li><strong>datos_con_listview/</strong>:
+    <li><strong>data_with_listview/</strong>:
         <ul>
             <li>Show data with ListView, only data from main table, not including related data in other ManyToMany tables.</li>
         </ul>
