@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plantilla book-list.html</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Plantilla book-list.html</h1>
+    <h2>Vamos a mostrar los datos de la BD.</h2>
+    <p>Aquí mediante datos_con_listview(ListView)</p>
+
+    {% block content %}
+        <ul>
+          {% for book in object_list %}
+          <li><strong>ID:</strong> {{ book.id }}</li>
+          <li><strong>Nombre:</strong> {{ book.name }}</li>
+          <li><strong>Autor:</strong> {{ book.author_name }}</li>
+          <li>----------------------------</li>
+          {% endfor %}
+        </ul>
+    {% endblock %}
+
+  </body>
+</html>

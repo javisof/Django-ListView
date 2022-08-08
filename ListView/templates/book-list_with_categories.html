@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plantilla book-list_with_categories.html</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Plantilla book-list_with_categories.html</h1>
+    <h2>Vamos a mostrar los datos de la BD con ManyToMany.</h2>
+    <p>Aquí mediante datos_categorias_con_listview(ListView)</p>
+
+    {% block content %}
+        <ul>
+          {% for book in object_list %}
+          <li><strong>ID:</strong> {{ book.id }}</li>
+          <li><strong>Nombre:</strong> {{ book.name }}</li>
+          <li><strong>Autor:</strong> {{ book.author_name }}</li>
+          <li>----------------------------</li>
+
+          <li><strong>Pertenece a la categoría:</strong></li>
+          <li>
+            <ul style="padding: 25px 0 25px 0; border-bottom: 2px solid #000;">
+              {% for category in book.categories.all %}
+              <li>
+                <a href="#">{{category.name}}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endfor %}
+        </ul>
+
+    {% endblock %}
+
+  </body>
+</html>
