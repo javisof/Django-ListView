@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Plantilla book-list.html</h1>
-    <h2>Vamos a mostrar los datos de la BD.</h2>
-    <p>Aquí mediante datos_con_listview(ListView)</p>
+    <h1>Template book-list.html</h1>
+    <h2>Let's show the data from the DB</h2>
+    <p>Here using url -> datos_con_listview</p>
 
     {% block content %}
         <ul>
           {% for book in object_list %}
           <li><strong>ID:</strong> {{ book.id }}</li>
-          <li><strong>Nombre:</strong> {{ book.name }}</li>
-          <li><strong>Autor:</strong> {{ book.author_name }}</li>
+          <li><strong>Name:</strong> {{ book.name }}</li>
+          <li><strong>Author:</strong> {{ book.author_name }}</li>
           <li>----------------------------</li>
           {% endfor %}
         </ul>
