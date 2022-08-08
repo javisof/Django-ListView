@@ -1,31 +1,31 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Plantilla book-list.html</title>
+    <title>Template book-list.html</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Plantilla index.html</h1>
-    <h2 style="text-decoration:underline;">Vamos a mostrar datos desde BD SQLite3 con request</h2>
+    <h1>Template index.html</h1>
+    <h2 style="text-decoration:underline;">We are going to show data from SQLite3 DB with request</h2>
 
     {% block content %}
         <ul>
           {# ------ Books ------ #}
           {% for book in books %}
           <li><strong>ID:</strong> {{ book.id }}</li>
-          <li><strong>Nombre:</strong> {{ book.name }}</li>
-          <li><strong>Autor:</strong> {{ book.author_name }}</li>
-          <li>Categorías:</li>
+          <li><strong>Name:</strong> {{ book.name }}</li>
+          <li><strong>Author:</strong> {{ book.author_name }}</li>
+          <li>Categories:</li>
           {# ------ Categories ------ #}
           <li>
             <ul style="padding: 25px 0 25px 0; border-bottom: 2px solid #000;">
               {% for cat in book.categories.all %}
               <li><strong>CAT ID:</strong> {{ cat.id }}</li>
-              <li><strong>Nombre:</strong> {{ cat.name }}</li>
+              <li><strong>Name:</strong> {{ cat.name }}</li>
               {% endfor %}
             </ul>
           </li>
