@@ -38,6 +38,9 @@ Django ListView contains the code to display the data from the database tables a
 
 
 
+<h2>Example Images</h2>
+
+
 
 <ul>
     <li></li>
