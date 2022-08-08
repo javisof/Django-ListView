@@ -3,8 +3,6 @@ Django ListView contains the code to display the data from the database tables a
 
 
 <h2>Features:</h2>
-* In index.html show the data with request function:
-    Gets the table data and associated ManyToManyField data
     
 <ul>
     <li>Index.html:
@@ -25,7 +23,12 @@ Django ListView contains the code to display the data from the database tables a
     </li>
 </ul>
 
+<h2>Requeriments:</h2>
 
+<ul>
+    <li>Python 3.10.5</li>
+    <li>Django 4.0.6</li>
+</ul>
 
 
 
