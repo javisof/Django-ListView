@@ -3,5 +3,5 @@ Django ListView contains the code to display the data from the database tables a
 
 
 Characteristic:
-* En index.html muestra los datos con función request:
-   Obtiene los datos de la tabla y los datos asociados ManyToManyField
+* In index.html show the data with request function:
+    Gets the table data and associated ManyToManyField data
