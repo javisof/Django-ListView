@@ -7,6 +7,19 @@ Characteristic:
     Gets the table data and associated ManyToManyField data
     
 <ul>
-    <li>item 1</li>
+    <li>Index.html:
+        <ul>
+            <li>show the data with request function:
+                Gets the table data and associated ManyToManyField data</li>
+        </ul>
+    </li>
     <li>item 2</li>
+</ul>
+
+
+
+
+
+<ul>
+    <li></li>
 </ul>
